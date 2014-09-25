@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">demo1</string>
+    <string name="jaja">Jaja</string>
+    <string name="title_section1">Gestion de Noticias</string>
+    <string name="title_section2">Gestion de Encuestas</string>
+    <string name="title_section3">Estadisticas Noticias</string>
+    <string name="title_section4">Estadisticas Encuestas</string>
+    <string name="title_section5">Estadisticas Chat</string>
+    <string name="title_section6">Login Facebook</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activinoticia_list">ActiviNoticias</string>
+    <string name="title_activinoticia_detail">ActiviNoticia Detail</string>
+    <string name="title_activiencuesta_list">ActiviEncuesta</string>
+    <string name="title_activiencuesta_detail">ActiviEncuesta Detail</string>
+    <string name="title_activity_estadis_noticia">EstadisNoticia</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_estadis_encuesta">EstadisEncuesta</string>
+    <string name="title_activity_estadis_chat">EstadisChat</string>
+    <string name="title_activity_login">Login</string>
+    <string name="get_started">get_started</string>
+    <string name="noticia">Este es el contenido de la noticia</string>
+    <string name="encuesta">Esta es la descripcion de la ecnuesta</string>
+    <string name="pregunta1">¿Whats your name?</string>
+    
+
+</resources>

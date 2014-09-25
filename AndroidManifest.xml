@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.demo1"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ActiviNoticiaListActivity"
+            android:label="@string/title_activinoticia_list" >
+        </activity>
+        <activity
+            android:name=".ActiviNoticiaDetailActivity"
+            android:label="@string/title_activinoticia_detail"
+            android:parentActivityName=".ActiviNoticiaListActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.demo1.ActiviNoticiaListActivity" />
+        </activity>
+        <activity
+            android:name=".ActiviEncuestaListActivity"
+            android:label="@string/title_activiencuesta_list" >
+        </activity>
+        <activity
+            android:name=".ActiviEncuestaDetailActivity"
+            android:label="@string/title_activiencuesta_detail"
+            android:parentActivityName=".ActiviEncuestaListActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.demo1.ActiviEncuestaListActivity" />
+        </activity>
+        <activity
+            android:name=".EstadisNoticia"
+            android:label="@string/title_activity_estadis_noticia" >
+        </activity>
+        <activity
+            android:name=".EstadisEncuesta"
+            android:label="@string/title_activity_estadis_encuesta" >
+        </activity>
+        <activity
+            android:name=".EstadisChat"
+            android:label="@string/title_activity_estadis_chat" >
+        </activity>
+        <activity
+            android:name=".Login"
+            android:label="@string/title_activity_login" >
+        </activity>
+    </application>
+
+</manifest>
